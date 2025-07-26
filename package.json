@@ -1,0 +1,19 @@
+{
+  "name": "Pharmacy_App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "../../../index.js",
+  "scripts": {
+    "test": "../../../node_modules/.bin/jest --passWithNoTests"
+  },
+  "private": true,
+  "devDependencies": {
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-react": "^7.27.1",
+    "babel-jest": "^30.0.5",
+    "jest": "^30.0.5"
+  },
+  "dependencies": {
+    "mongodb": "^6.18.0"
+  }
+}
